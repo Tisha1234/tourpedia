@@ -4,7 +4,11 @@ let searchbar = document.querySelector('.search-bar-container');
 window.onscroll = () =>{
     searchbtn.classList.remove('fa-times');
     searchbar.classList.remove('active');
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
 }
+
+
 
 searchbtn.addEventListener('click', () =>{
     searchbtn.classList.toggle('fa-times');
